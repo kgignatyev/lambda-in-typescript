@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "kgi-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-uaqh3ob03b0n"
+s3_prefix = "kgi-app"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
